@@ -1,0 +1,233 @@
+		header {
+			background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('https://media3.giphy.com/media/3o6ZsXhBzpoRApBkPK/source.gif');
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		.container {
+			position: relative;
+			width: 50%;
+		}
+
+		.image {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+		.overlay {
+			position: absolute;
+			bottom: 100%;
+			left: 0;
+			right: 0;
+			background-color: white;
+			overflow: hidden;
+			width: 100%;
+			height: 0;
+			transition: .5s ease;
+			border-radius: 20px;
+		}
+
+		.container:hover .overlay {
+			bottom: 0;
+			height: 100%;
+		}
+
+		.text {
+			white-space: nowrap;
+			color: white;
+			font-size: 20px;
+			position: absolute;
+			overflow: hidden;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+		}
+
+		body {
+			background-image: url('https://stmed.net/sites/default/files/keyboard-wallpapers-30703-9137450.jpg');
+			background-attachment: fixed;
+			background-size: cover;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+		p {
+			font-family: verdana;
+			font-size: 30px;
+			color: white;
+		}
+
+		h1 {
+			font-family: verdana;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+		h2 {
+			font-family: arial;
+			font-size: 50px;
+			margin: 0px;
+		}
+
+		button {
+			padding: 15px 25px;
+			font-size: 24px;
+			text-align: center;
+			cursor: pointer;
+			outline: none;
+			color: #fff;
+			background-color: blue;
+			border: none;
+			border-radius: 15px;
+			box-shadow: 0 9px #999;
+			box-shadow: inset 0px -8px 20px 0px rgb(19, 0, 0), 0px 7px 0px 0px rgba(0, 0, 0, 0.66);
+		}
+
+		button:hover {
+			background-color: black
+		}
+
+		button:active {
+			background-color: white;
+			box-shadow: 0 5px #666;
+			transform: translateY(4px);
+		}
+		img {
+			border-radius: 20px;
+		}
+
+		.first-text {
+			font-size: 4.4rem;
+			position: absolute;
+			left: 2.5rem;
+			top: 5rem;
+			opacity: 1;
+			animation-name: topFadeOut;
+			animation-duration: 5s;
+			color: black;
+			font-size: 100px;
+		}
+
+		@keyframes topFadeOut {
+			0% {
+				position: absolute;
+				top: -3rem;
+				opacity: 0;
+			}
+			75% {
+				position: absolute;
+				top: 25%;
+				opacity: 1;
+			}
+		}
+		.imgKey {
+			width: 200px;
+			height: 200px;
+		}
+
+		#footer {
+			background-color: black;
+			height: 200px;
+			width: 100%;
+		}
+
+		ul li {
+			display: inline-block;
+			list-style-type: none;
+			margin-left: 30px;
+		}
+
+		ul {
+			padding-left: 0px;
+			padding-right: 20px;
+		}
+
+		.fa {
+			padding: 20px;
+			font-size: 30px;
+			width: 60px;
+			text-align: center;
+			text-decoration: none;
+			margin: 5px 2px;
+			border-radius: 20%;
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+			background: #3B5998;
+			color: white;
+		}
+
+		.fa-twitter {
+			background: #55ACEE;
+			color: white;
+		}
+
+		.fa-instagram {
+			background: #125688;
+			color: white;
+		}
+
+		.fa-yahoo {
+			background: #430297;
+			color: white;
+		}
+
+		.fa-youtube {
+			background: #bb0000;
+			color: white;
+		}
+
+		.fa-pinterest {
+			background: #cb2027;
+			color: white;
+		}
+
+		.topnav {
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		.topnav a {
+			float: right;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.belownav a {
+			float: right;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.topnav a:hover {
+			background-color: gray;
+			color: black;
+		}
+
+		.belownav a:hover {
+			background-color: green;
+			color: black;
+		}
+
+		div.topnav {
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
+		}
+
+		main {
+			padding: 0px 20px;
+			background-color: white;
+		}
